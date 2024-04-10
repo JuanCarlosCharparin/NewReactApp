@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+body{
+  background-color: aliceblue;
 }
 
 .App-logo {
@@ -35,4 +42,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/*
+props.js
+*/
+/*
+.Props {
+  width: 50%;
+  max-width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+*/
+.card {
+  width: 400px;
+  height: 600px;
+  margin: 20px;
+  border-radius: 6ox;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+}
+
+.img-cuerpos {
+  width: 250px;
+  height: 250px;
+  margin-top: 10px;
+}
+
+.contenido {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }
