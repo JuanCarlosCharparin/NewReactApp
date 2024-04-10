@@ -1,6 +1,6 @@
 import './App.css';
-import MostrarDescripcion from './components/MostrarDescripcion/MostrarDescripcion';
 import Props from './components/Props/props';
+import Api from './components/ConsumiendoApi/ConsumiendoApi';
 
 function App() {
   return (
@@ -48,6 +48,8 @@ function App() {
           texto='Es un gigante de gas, como Júpiter. Está compuesto por hidrógeno y helio, sobre todo. Tiene una atmósfera densa. Cuenta con un precioso grupo de siete anillos separados por espacio entre ellos.'
         
         />
+
+        <Api />
 
     </div>
   );
